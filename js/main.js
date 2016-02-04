@@ -1,3 +1,5 @@
+// Function for calling the Now Showing Movie API 
+
 function NowShowing() {
     var xhr = new XMLHttpRequest();
     var data = [];
@@ -67,7 +69,7 @@ function NowShowing() {
     xhr.send();
 };
 
-
+// Function for calling the Most Popular Movie API 
 
 function MostPopular() {
     var xhr = new XMLHttpRequest();
@@ -137,6 +139,7 @@ function MostPopular() {
     xhr.send();
 };
 
+// Function for calling the Top Rated Movie API 
 
 function TopRated() {
     var xhr = new XMLHttpRequest();
@@ -206,6 +209,7 @@ function TopRated() {
     xhr.send();
 };
 
+// Function for calling the Up Comming Movie API 
 
 function upComming() {
     var xhr = new XMLHttpRequest();
@@ -275,7 +279,7 @@ function upComming() {
     xhr.send();
 };
 
-
+// Config function for Movie Poster API. 
 
 function baseUrl_Image() {
 
